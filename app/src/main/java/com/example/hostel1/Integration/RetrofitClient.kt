@@ -7,7 +7,7 @@ package com.example.hostel1.Integration
     import retrofit2.converter.gson.GsonConverterFactory
 
     object RetrofitClient {
-        private const val BASE_URL = "https://5fe8-125-21-249-98.ngrok-free.app/"
+        private const val BASE_URL = "https://5fe8-125-21-249-98.ngrok-free"
         private lateinit var sharedPreferences: SharedPreferences
 
         fun init(context: Context) {
